@@ -19,20 +19,20 @@ const Feature = ({ icongif, title, description }) => (
 const LandingPage = () => {
   const features = [
     {
-      icongif: "public/assets/icons8-upload.gif",
+      icongif: "assets/icons8-upload.gif",
       title: "Easy Upload",
       description:
         "Drag and drop your files or click to upload with our intuitive interface",
     },
 
     {
-      icongif: "public/assets/icons8-thunder.gif",
+      icongif: "assets/icons8-thunder.gif",
       title: "Lightning Fast",
       description:
         "Upload and share files instantly with our optimized infrastructure",
     },
     {
-      icongif: "public/assets/icons8-sharing.gif",
+      icongif: "assets/icons8-sharing.gif",
       title: "Simple Sharing",
       description: "Generate shareable links with optional password protection",
     },
@@ -50,7 +50,7 @@ const LandingPage = () => {
             <div className="flex items-center">
               <img
                 className="w-10 h-10 bg-cover"
-                src="public\assets\icons8-uploading-50.png"
+                src="/assets/icons8-uploading-50.png"
                 alt=""
               />
               <span className="ml-2 text-xl tracking-wide drop-shadow-xl font-Quiche-Sans font-bold text-gray-800">
