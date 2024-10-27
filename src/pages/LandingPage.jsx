@@ -7,9 +7,6 @@ import ArrowRightIcon2 from "../components/ui/ArrowRightIcon";
 // eslint-disable-next-line react/prop-types
 const Feature = ({ icongif, title, description }) => (
   <div
-  // initial={{ opacity: 0, y: 8 }}
-  // animate={{ opacity: 1, y: 0 }}
-  // transition={{ duration: 0.4, delay: 2 }}
   className="flex flex-col items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
     <div className="mb-4">
       <img className="bg-cover" src={icongif} alt="" />
@@ -22,20 +19,20 @@ const Feature = ({ icongif, title, description }) => (
 const LandingPage = () => {
   const features = [
     {
-      icongif: "../src/assets/icons8-upload.gif",
+      icongif: "public/assets/icons8-upload.gif",
       title: "Easy Upload",
       description:
         "Drag and drop your files or click to upload with our intuitive interface",
     },
 
     {
-      icongif: "../src/assets/icons8-thunder.gif",
+      icongif: "public/assets/icons8-thunder.gif",
       title: "Lightning Fast",
       description:
         "Upload and share files instantly with our optimized infrastructure",
     },
     {
-      icongif: "../src/assets/icons8-sharing.gif",
+      icongif: "public/assets/icons8-sharing.gif",
       title: "Simple Sharing",
       description: "Generate shareable links with optional password protection",
     },
@@ -53,7 +50,7 @@ const LandingPage = () => {
             <div className="flex items-center">
               <img
                 className="w-10 h-10 bg-cover"
-                src="src\assets\icons8-uploading-50.png"
+                src="public\assets\icons8-uploading-50.png"
                 alt=""
               />
               <span className="ml-2 text-xl tracking-wide drop-shadow-xl font-Quiche-Sans font-bold text-gray-800">
