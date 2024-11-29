@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">- 🔭 I’m a student at present<br>- 👨🏻‍🎓 I'm in BCA 1st year 2nd Sem<br>- 📚 I'm currently learning JAVA PROGRAMMING, MERN FULL-STACK WEB-DEV<br>- ⚡ In my free time I practice my learnings and skills</p>
+<p align="left">- 🔭 I’m a student at present<br>- 👨🏻‍🎓 Pursuing BCA Degree *Currently in 3rd year 1st Sem<br>- 📚 I've Accomplished JAVA PROGRAMMING with DSA, Completed Frontend Development<br>- ⚡ In my free time I practice my learnings and skills</p>
 
 ###
 <div align="center">
